@@ -9,6 +9,7 @@ public class CoffeeShopTest : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Debug.Log("Hello");
         Debug.Log("Coffees sold: " + coffeesSold);
         Debug.Log("I have Ordered");
         Debug.Log(amountOrdered + "coffees");
